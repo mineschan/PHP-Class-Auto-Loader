@@ -32,7 +32,7 @@ class ModelLoader{
     /** Static Function, Scan and load the files in given Directory
       * More information see load() function, this function just pass and call that one
       */	
-	public static function Load($dir,$method,$prefix,$debug){
+	public static function LoadDir($dir,$method,$prefix,$debug){
 		$class = new ModelLoader();
 		return $class->load($dir,$method,$prefix);
 	}
