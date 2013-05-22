@@ -1,14 +1,13 @@
 <? 
-
 /***
 Class Name : ModelLoader
-Version    : 0.2 beta
+Version    : 0.4 beta
 Author 	   : MineS Chan
 Contact	   : mineschan@gmail.com
 Social	   : @mineschan
 Description: This is a function to load all the php file with Capital filename or specific prefix in provided directory.
 
-Last Updated: 07/29/2011
+Last Updated: 22/05/2013
 ***/
 
 class ModelLoader{
@@ -34,7 +33,7 @@ class ModelLoader{
       */	
 	public static function LoadDir($dir,$method,$prefix,$debug){
 		$class = new ModelLoader();
-		return $class->load($dir,$method,$prefix);
+		return $class->load($dir,$method,$prefix,$debug);
 	}
 	
 	
