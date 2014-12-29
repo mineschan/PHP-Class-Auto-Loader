@@ -43,7 +43,7 @@ class ModelLoader{
       * @param $prefix File name prefix, default = "CAPS", but this actually mean File name with Capital letters.
       * @return the class object itself
       */	
-	public function __construct($dir,$prefix)
+	public function __construct($dir = NULL,$prefix = NULL)
 	{
 		if($dir != "")
 			$this->setDirPath($dir);
